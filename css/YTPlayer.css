@@ -65,7 +65,7 @@
   position: fixed;
   width: 100%;
   height: 100%;
-  top: 0;
+  bottom 0;
   left: 0;
   margin: 0!important;
 }
@@ -73,6 +73,10 @@
 
 .mbYTP_wrapper iframe{
   max-width: 4000px !important;
+  /* ALIGN TO BOTTOM   
+  top:auto !important;
+  bottom:0 !important;
+   END OF ALIGN TO BOTTOM */
 }
 
 .inline_YTPlayer{

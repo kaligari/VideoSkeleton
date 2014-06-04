@@ -126,8 +126,8 @@ function onYouTubePlayerAPIReady() {
 			showSite: "R",
 			ytLogo: "Y"
 		},
-		rasterImg      : "images/raster.png",
-		rasterImgRetina: "images/raster@2x.png",
+		rasterImg      : "img/raster.png",
+		rasterImgRetina: "img/raster@2x.png",
 
 		locationProtocol: location.protocol != "file:" ? location.protocol : "http:",
 
