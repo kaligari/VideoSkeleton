@@ -1,0 +1,107 @@
+body{
+  padding:0;
+  margin:0;
+  overflow:hidden;
+  background-color:#000A0A;
+  color:#ddd;
+  font-family: 'Poiret One', cursive;
+  font-size:26px;
+}
+a{
+  color:#ddd;
+  text-decoration:none;  
+}
+#sztruks{
+  background:url('../img/sztruks.png') center center repeat;    
+  position:absolute; 
+  display:block;   
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+  z-index:1;
+} 
+#content{
+  display:block;   
+  width:100%;
+  height:100%;
+  z-index:2;
+  position:absolute;
+  margin:0;
+  padding:0;
+}       
+.page{
+  width:100%;
+  height:auto;
+  padding:0;
+  margin:0 auto;  
+  display:none;
+}   
+.start{
+  display:block;
+}
+#arr-left {
+  position: absolute;
+  top: 45%;
+  left:5%;
+  z-index: 19000;
+}
+#arr-right {
+  position: absolute;
+  top: 45%;
+  right:5%;
+  z-index: 19000;
+}
+.scale-on-hover img {
+  cursor:pointer;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;                 
+  transform:scale(1);
+  -webkit-transform:scale(1); 
+}
+.scale-on-hover:hover img{
+  cursor:pointer;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;                 
+  transform:scale(1.5);
+  -webkit-transform:scale(1.5); 
+}
+.page p{
+  display:block;
+  margin:0 auto;
+  width:80%;
+  text-align:center;
+  vertical-align:middle;
+}
+.page img{
+  display:block;
+  margin:50px auto;
+  opacity:1;
+  text-align:center;
+  vertical-align:middle;
+}   
+#menu{
+  position:absolute;
+  top:10px;
+  left:10px;
+  background-color:#aaa;
+  width:auto;  
+  display:block;
+  opacity:0.2;
+  margin:0;
+  padding:0;
+}
+#menu a {
+  padding-top:20px;
+  margin-bottom:20px;
+  padding-left:20px;
+  padding-right:20px;
+  color:#fff;
+  text-transform:uppercase;
+  font-size:18px;
+}
+
+#menu a:hover {
+  color:#fff;
+  opacity:1;
+}                                                                    
