@@ -15,35 +15,7 @@
 
 <div id="sztruks"></div>
 <div id="content">
-  <!-- NAV -->
-  <div id="menu">
-    <a href="#">ABOUT</a>
-    <a href="#">CONTACT</a>
-  </div>
-  <div id="arr-left">
-    <a href="#" class="scale-on-hover">            
-      <img src="img/left.png" alt="dalej" />
-    </a>
-  </div>
-  <div id="arr-right">          
-    <a href="#" class="scale-on-hover">            
-      <img src="img/right.png" alt="dalej" />
-    </a>
-  </div>
-  <!-- END NAV -->
-  <!-- SLIDES -->
-  <div class="page start" id="slide1">
-    <p>Regionalne Centrum Zdrowia w Zbąszynku</p>
-    <img src="portfolio/rcz.png">    
-  </div>
-  <div class="page" id="slide2">
-    <p>Remember!</p>
-    <img src="portfolio/rcz.png">    
-  </div>
-  <div class="page" id="slide3">
-    <p>Dont forget!</p>    
-  </div>
-  <!-- END SLIDES -->
+
 </div>
 </div>
 </body>
